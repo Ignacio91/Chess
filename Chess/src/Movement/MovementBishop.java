@@ -19,6 +19,8 @@ public class MovementBishop extends Movement
 		super.pieces= _pieces;
 		super.x = _x;
 		super.y = _y;
+		piece = _piece;
+		pieces = _pieces;
 		x=_x;
 		y=_y;
 		
@@ -94,11 +96,11 @@ public class MovementBishop extends Movement
 		{	
 			valid[0] = true;
 			if(check_Color_empty)
-				valid[1] = false;
+				valid[1] = true;
 		}
 		else
 		{
-			valid[1] = false;
+			valid[1] = true;
 		}
 		check_Color_empty = false;
 

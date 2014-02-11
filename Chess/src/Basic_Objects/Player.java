@@ -1,9 +1,12 @@
-
+package Basic_Objects;
+/**
+ * Class player 
+ */
 public class Player 
 {
-	 boolean is_check;
-	 boolean logic;
-	 Player(boolean _logic)
+	 boolean is_check;// variable to show if the player is in check
+	 boolean logic;//  what color is the player
+	 public Player(boolean _logic)
 	 {
 		 logic = _logic;
 	 }

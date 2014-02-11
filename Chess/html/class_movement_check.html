@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Chess Assigment 1.1: MovementCheck Class Reference</title>
+<title>Chess Game: MovementCheck Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="download.jpeg"/></td>
+  <td id="projectlogo"><img alt="Logo" src="chess.jpeg"/></td>
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Chess Assigment 1.1
+   <div id="projectname">Chess Game
    </div>
   </td>
  </tr>
@@ -92,26 +92,139 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4282505567223574aad557238ec3962"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4282505567223574aad557238ec3962"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (<a class="el" href="class_basic___objects_1_1_piece.html">Piece</a>[][] _pieces)</td></tr>
+<tr class="memitem:ad4282505567223574aad557238ec3962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movement_check.html#ad4282505567223574aad557238ec3962">update</a> (<a class="el" href="class_basic___objects_1_1_piece.html">Piece</a>[][] _pieces)</td></tr>
 <tr class="separator:ad4282505567223574aad557238ec3962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7de16c5e5e34bea53f45a84c0357b3cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7de16c5e5e34bea53f45a84c0357b3cf"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>checkMove</b> (<a class="el" href="class_basic___objects_1_1_piece.html">Piece</a> p, <a class="el" href="class_basic___objects_1_1_position.html">Position</a> _init, <a class="el" href="class_basic___objects_1_1_position.html">Position</a> _end)</td></tr>
+<tr class="memitem:a7de16c5e5e34bea53f45a84c0357b3cf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movement_check.html#a7de16c5e5e34bea53f45a84c0357b3cf">checkMove</a> (<a class="el" href="class_basic___objects_1_1_piece.html">Piece</a> p, <a class="el" href="class_basic___objects_1_1_position.html">Position</a> _init, <a class="el" href="class_basic___objects_1_1_position.html">Position</a> _end)</td></tr>
 <tr class="separator:a7de16c5e5e34bea53f45a84c0357b3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a419c5a5eba3dd02a9a9d0fe56df331b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a419c5a5eba3dd02a9a9d0fe56df331b9"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>check</b> (<a class="el" href="class_basic___objects_1_1_position.html">Position</a> _end, boolean Color)</td></tr>
-<tr class="separator:a419c5a5eba3dd02a9a9d0fe56df331b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f044b7c75dd4d54dc1253937e885c6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f044b7c75dd4d54dc1253937e885c6a"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>checkMate</b> (boolean Color)</td></tr>
+<tr class="memitem:af22211846bb45340a2551f9c37fee143"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movement_check.html#af22211846bb45340a2551f9c37fee143">lookCheck</a> (<a class="el" href="class_basic___objects_1_1_position.html">Position</a> _end, boolean Color)</td></tr>
+<tr class="separator:af22211846bb45340a2551f9c37fee143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f044b7c75dd4d54dc1253937e885c6a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movement_check.html#a6f044b7c75dd4d54dc1253937e885c6a">checkMate</a> (boolean Color)</td></tr>
 <tr class="separator:a6f044b7c75dd4d54dc1253937e885c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811aec4024622cc6cb153594a11b8afb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_movement_check.html#a811aec4024622cc6cb153594a11b8afb">checkmate</a> (<a class="el" href="class_basic___objects_1_1_piece.html">Piece</a> p)</td></tr>
+<tr class="separator:a811aec4024622cc6cb153594a11b8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>control the Movements of every piece </p>
+<dl class="section author"><dt>Author</dt><dd>Ignacio Ferrero </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6f044b7c75dd4d54dc1253937e885c6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean MovementCheck.checkMate </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>Color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>checks for the game ending condition needs farther work </p>
+
+</div>
+</div>
+<a class="anchor" id="a811aec4024622cc6cb153594a11b8afb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean MovementCheck.checkmate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_piece.html">Piece</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if there is Checkmate, piece p to know the color of the player == player </p>
+
+</div>
+</div>
+<a class="anchor" id="a7de16c5e5e34bea53f45a84c0357b3cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean MovementCheck.checkMove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_piece.html">Piece</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_position.html">Position</a>&#160;</td>
+          <td class="paramname"><em>_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_position.html">Position</a>&#160;</td>
+          <td class="paramname"><em>_end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>checks if the intended move is valid receives the board the initial position and the end position </p>
+
+</div>
+</div>
+<a class="anchor" id="af22211846bb45340a2551f9c37fee143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean MovementCheck.lookCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_position.html">Position</a>&#160;</td>
+          <td class="paramname"><em>_end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>Color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>checks if the king is in check </p>
+
+</div>
+</div>
+<a class="anchor" id="ad4282505567223574aad557238ec3962"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MovementCheck.update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_basic___objects_1_1_piece.html">Piece</a>&#160;</td>
+          <td class="paramname"><em>_pieces</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Update the pieces </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/MovementCheck.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 7 2014 19:21:52 for Chess Assigment 1.1 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 11 2014 12:57:57 for Chess Game by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

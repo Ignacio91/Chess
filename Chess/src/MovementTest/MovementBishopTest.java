@@ -17,8 +17,8 @@ public class MovementBishopTest
 	@Test
 	public void testCheckBishop() 
 	{
-		//createPieceCorrect();
-		createPieceIncorrect();
+		createPieceCorrect();
+		//createPieceIncorrect();
 		correct = mb.checkBishop();
 		if(result.size()==correct.size())
 		{
@@ -55,9 +55,9 @@ public class MovementBishopTest
 	{
 		initialize();
 		result.add(new Position(1,1));result.add(new Position(2,0));
-		result.add(new Position(1,3));result.add(new Position(2,4));
+		/*result.add(new Position(1,3));result.add(new Position(2,4));
 		result.add(new Position(3,5));result.add(new Position(4,6));
-		result.add(new Position(5,7));
+		result.add(new Position(5,7));*/
 		
 	}
 	public void createPieceIncorrect()
@@ -73,6 +73,7 @@ public class MovementBishopTest
 	{
 		Piece p  = new Piece(2, true);
 		pieces[0][2] = p;
+		pieces[1][3] = p;
 		mb = new MovementBishop(pieces, p, 0, 2);
 		result = new ArrayList<Position>();
 	}

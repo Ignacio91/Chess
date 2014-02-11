@@ -4,19 +4,64 @@
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{class_movement_check_ad4282505567223574aad557238ec3962}{void {\bfseries update} (\hyperlink{class_basic___objects_1_1_piece}{Piece}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \-\_\-pieces)}\label{class_movement_check_ad4282505567223574aad557238ec3962}
-
+void \hyperlink{class_movement_check_ad4282505567223574aad557238ec3962}{update} (\hyperlink{class_basic___objects_1_1_piece}{Piece}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \-\_\-pieces)
 \item 
-\hypertarget{class_movement_check_a7de16c5e5e34bea53f45a84c0357b3cf}{boolean {\bfseries check\-Move} (\hyperlink{class_basic___objects_1_1_piece}{Piece} p, \hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-init, \hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-end)}\label{class_movement_check_a7de16c5e5e34bea53f45a84c0357b3cf}
-
+boolean \hyperlink{class_movement_check_a7de16c5e5e34bea53f45a84c0357b3cf}{check\-Move} (\hyperlink{class_basic___objects_1_1_piece}{Piece} p, \hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-init, \hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-end)
 \item 
-\hypertarget{class_movement_check_a419c5a5eba3dd02a9a9d0fe56df331b9}{boolean {\bfseries check} (\hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-end, boolean Color)}\label{class_movement_check_a419c5a5eba3dd02a9a9d0fe56df331b9}
-
+boolean \hyperlink{class_movement_check_af22211846bb45340a2551f9c37fee143}{look\-Check} (\hyperlink{class_basic___objects_1_1_position}{Position} \-\_\-end, boolean Color)
 \item 
-\hypertarget{class_movement_check_a6f044b7c75dd4d54dc1253937e885c6a}{boolean {\bfseries check\-Mate} (boolean Color)}\label{class_movement_check_a6f044b7c75dd4d54dc1253937e885c6a}
-
+boolean \hyperlink{class_movement_check_a6f044b7c75dd4d54dc1253937e885c6a}{check\-Mate} (boolean Color)
+\item 
+boolean \hyperlink{class_movement_check_a811aec4024622cc6cb153594a11b8afb}{checkmate} (\hyperlink{class_basic___objects_1_1_piece}{Piece} p)
 \end{DoxyCompactItemize}
 
+
+\subsection{Detailed Description}
+control the Movements of every piece \begin{DoxyAuthor}{Author}
+Ignacio Ferrero 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_movement_check_a6f044b7c75dd4d54dc1253937e885c6a}{\index{Movement\-Check@{Movement\-Check}!check\-Mate@{check\-Mate}}
+\index{check\-Mate@{check\-Mate}!MovementCheck@{Movement\-Check}}
+\subsubsection[{check\-Mate}]{\setlength{\rightskip}{0pt plus 5cm}boolean Movement\-Check.\-check\-Mate (
+\begin{DoxyParamCaption}
+\item[{boolean}]{Color}
+\end{DoxyParamCaption}
+)}}\label{class_movement_check_a6f044b7c75dd4d54dc1253937e885c6a}
+checks for the game ending condition needs farther work \hypertarget{class_movement_check_a811aec4024622cc6cb153594a11b8afb}{\index{Movement\-Check@{Movement\-Check}!checkmate@{checkmate}}
+\index{checkmate@{checkmate}!MovementCheck@{Movement\-Check}}
+\subsubsection[{checkmate}]{\setlength{\rightskip}{0pt plus 5cm}boolean Movement\-Check.\-checkmate (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_movement_check_a811aec4024622cc6cb153594a11b8afb}
+Checks if there is Checkmate, piece p to know the color of the player == player \hypertarget{class_movement_check_a7de16c5e5e34bea53f45a84c0357b3cf}{\index{Movement\-Check@{Movement\-Check}!check\-Move@{check\-Move}}
+\index{check\-Move@{check\-Move}!MovementCheck@{Movement\-Check}}
+\subsubsection[{check\-Move}]{\setlength{\rightskip}{0pt plus 5cm}boolean Movement\-Check.\-check\-Move (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{p, }
+\item[{{\bf Position}}]{\-\_\-init, }
+\item[{{\bf Position}}]{\-\_\-end}
+\end{DoxyParamCaption}
+)}}\label{class_movement_check_a7de16c5e5e34bea53f45a84c0357b3cf}
+checks if the intended move is valid receives the board the initial position and the end position \hypertarget{class_movement_check_af22211846bb45340a2551f9c37fee143}{\index{Movement\-Check@{Movement\-Check}!look\-Check@{look\-Check}}
+\index{look\-Check@{look\-Check}!MovementCheck@{Movement\-Check}}
+\subsubsection[{look\-Check}]{\setlength{\rightskip}{0pt plus 5cm}boolean Movement\-Check.\-look\-Check (
+\begin{DoxyParamCaption}
+\item[{{\bf Position}}]{\-\_\-end, }
+\item[{boolean}]{Color}
+\end{DoxyParamCaption}
+)}}\label{class_movement_check_af22211846bb45340a2551f9c37fee143}
+checks if the king is in check \hypertarget{class_movement_check_ad4282505567223574aad557238ec3962}{\index{Movement\-Check@{Movement\-Check}!update@{update}}
+\index{update@{update}!MovementCheck@{Movement\-Check}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Movement\-Check.\-update (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{\-\_\-pieces\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{class_movement_check_ad4282505567223574aad557238ec3962}
+Update the pieces 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
 \item 

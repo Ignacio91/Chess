@@ -19,4 +19,10 @@ public class Position
 	public int getY(){
 		return y;
 	}
+
+	public boolean check(Position position) {
+		if(this.getX() == position.getX() && this.getY() == position.getY())
+			return true;
+		else return false;
+	}
 }

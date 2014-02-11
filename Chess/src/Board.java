@@ -3,16 +3,22 @@ import java.awt.event.*;
 import javax.swing.*;
 import Basic_Objects.*;
 
-public class ChessGameDemo extends JFrame implements MouseListener, MouseMotionListener 
+/**
+ * Class for managing the board ,creating the GUI and handling the  MOUSE -events
+ * independent from 
+ */
+public class Board extends JFrame implements MouseListener, MouseMotionListener 
 {
 	
+  
+  private static final long serialVersionUID = 1L;
   JLayeredPane Panel_layered;//Add overlap for pieces
   JPanel chess_Board;
   JLabel chess_Piece;
   
   JLabel piece;
   JPanel panel;
-  int xAdjustment;
+  int xAdjustment;//adjustement for the correct placement of the GUI
   int yAdjustment;
   
   int position_x;
@@ -21,13 +27,13 @@ public class ChessGameDemo extends JFrame implements MouseListener, MouseMotionL
   Position position_init;
   Position position_end;
   
-  MovementCheck movement;
+  MovementCheck movement;//Class to check the movements generted by the mouse events
   
   Piece piece_obj;
 
   
   
-  int heigth = 600;
+  int heigth = 600;//dimensions
   int width = 600;
   
   boolean finished;
@@ -35,7 +41,7 @@ public class ChessGameDemo extends JFrame implements MouseListener, MouseMotionL
   GameLogic game_logic;
   
   
-  public ChessGameDemo(GameLogic _game_logic)
+  public Board(GameLogic _game_logic)
   {
 	  game_logic = _game_logic;
 	  finished = false;
@@ -278,19 +284,30 @@ private void initBoard(Dimension boardSize)
 	  }
 	 
   }
-
+  /**
+   * Game is finished
+   */
  public Boolean getFinish()
  {
 	 return finished;
  }
+ /**
+  * Function to show check
+  */
  public void checkDialog()
  {
 	 JOptionPane.showMessageDialog(this, "Check!!");
  }
+ /**
+  * Function to show checkMate
+  */
  public void checkMateDialog()
  {
 	 JOptionPane.showMessageDialog(this, "You Win");
  }
+ /**
+  * Function to show that is it not your turn
+  */
  public void checkErrorTurn()
  {
 	 JOptionPane.showMessageDialog(this, "It's not you turn");
@@ -306,6 +323,7 @@ private void initBoard(Dimension boardSize)
   public void mouseExited(MouseEvent e) {
   
   }
+  //when window is closed finish the "logic" game
   public void windowClosing(WindowEvent e) 
   {
 	  game_logic.updateApp();

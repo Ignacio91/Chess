@@ -8,10 +8,10 @@ import Movement.*;
  */	
 public class MovementCheck 
 {
-	Piece[][] pieces;
+	Piece[][] pieces;//the logic board
 	Piece piece;
-	Position init;
-	Position end;
+	Position init;//initial position
+	Position end;//initial position
 	int x;
 	int y;
 	ArrayList<Position> possible_move_check_own;
@@ -20,7 +20,7 @@ public class MovementCheck
 	int pos_x_king;
 	int pos_y_king;
 	
-	boolean debug;
+	boolean debug = false;// for debuging == true
 	
 	MovementCheck(Piece[][] _pieces)
 	{
@@ -59,7 +59,7 @@ public class MovementCheck
 	private boolean checkPossibleMoves() 
 	{
 		//ArrayList<Position> possible_move= getPossibleMoves(x, y, piece);// return all the possible moves
-		ArrayList<Position> possible_move= getPossibleMoves();
+		ArrayList<Position> possible_move= getPossibleMoves(piece, x ,y);
 		for(int i=0; i<possible_move.size();i++)
 		{
 			if(possible_move.get(i).getX() == end.getX() && possible_move.get(i).getY() == end.getY())
@@ -71,19 +71,22 @@ public class MovementCheck
 	/**
 	 * checks if the king is in check
 	 */
-	public boolean check(Position _end, boolean Color)
+	public boolean lookCheck(Position _end, boolean Color)
 	{
 		//important en position
 		x = _end.getX();
 		y =  _end.getY();
 		//ArrayList<Position> possible_move= getPossibleMoves(x,y, piece);
-		ArrayList<Position> possible_move= getPossibleMoves();
+		ArrayList<Position> possible_move= getPossibleMoves(piece, x, y);
+		System.out.println();
 		pos_x_king =-1;// initialize
 		pos_y_king =-1;
+		
+		boolean king_found = false;
 		//finds the position of the king
-		for(int i=0;i<8;i++)
+		for(int i=0;i<8 && !king_found;i++)
 		{
-			for(int j=0;j<8;j++)
+			for(int j=0;j<8 && !king_found;j++)
 			{
 				if(pieces[i][j] != null)
 				{
@@ -93,23 +96,24 @@ public class MovementCheck
 						
 						pos_x_king =i;
 						pos_y_king =j;
-						break;
+						king_found= true;
 					}
 				}
 				
 			}
 		}
-		
+		System.out.println("King found" + king_found);
 		if(pos_x_king!=-1)
 		{
 			for(int i=0; i<possible_move.size();i++)
 			{
+				System.out.println(possible_move.get(i));
 				if(debug)
 				{
-					System.out.println("X: " +possible_move.get(i).getX()+ "Y  " + possible_move.get(i).getY());
+					System.out.println("X!: " +possible_move.get(i).getX()+ "Y!  " + possible_move.get(i).getY());
 				}
 				//looks if position of king is included in next move from the piece 
-				if(possible_move.get(i).getX() == pos_x_king && possible_move.get(i).getY() == pos_y_king)
+				if(possible_move.get(i).check(new Position(pos_x_king,pos_y_king)))
 					return true;
 			}
 		}
@@ -146,7 +150,7 @@ public class MovementCheck
 	 * Checks which type the piece is and gets the possible move of the piece type
 	 * taking care of the all possible moves 
 	 */
-	private ArrayList<Position> getPossibleMoves() 
+	private ArrayList<Position> getPossibleMoves(Piece p , int x1, int y1) 
 	{
 		ArrayList<Position> possible_move = new ArrayList<Position>();
 		int type = piece.getType();
@@ -154,26 +158,26 @@ public class MovementCheck
 		switch (type)
 		{
 			case 0://Rock type
-				MovementRock mr =  new MovementRock( pieces,  piece,  x,  y);
+				MovementRock mr =  new MovementRock( pieces,  p,  x1,  y1);
 				possible_move =  mr.checkRook();
 				break;
 			case 1://Knight type
-				MovementKnight mk =  new MovementKnight( pieces,  piece,  x,  y);
+				MovementKnight mk =  new MovementKnight( pieces,  p,  x1,  y1);
 				possible_move =  mk.checkKnight();
 				break;
 			case 2://Bishop type
-				MovementBishop mp =  new MovementBishop( pieces,  piece,  x,  y);
+				MovementBishop mp =  new MovementBishop( pieces,  p,  x1,  y1);
 				possible_move =  mp.checkBishop();
 				break;
 			case 3://Queen type
 				possible_move = checkQueen();
 				break;
 			case 4://King type
-				MovementKing mki =  new MovementKing( pieces,  piece,  x,  y);
+				MovementKing mki =  new MovementKing( pieces,  p,  x1,  y1);
 				possible_move =  mki.checkKing();
 				break;
 			case 5://Pawn type
-				MovementPawn mpa =  new MovementPawn( pieces,  piece,  x,  y);
+				MovementPawn mpa =  new MovementPawn( pieces,  p,  x1,  y1);
 				possible_move =  mpa.checkPawn();
 				
 				
@@ -212,34 +216,58 @@ public class MovementCheck
 		else
 			return false;
 	}
-
-	/*public boolean checkmate(Piece p) 
+	/**
+	 * Checks if there is Checkmate, piece p to know the color of the player == player
+	 */
+	public boolean checkmate(Piece p) 
 	{
-		if(checkMoveOpponent(p))
-			if(checkMoveKing(p))
-				return true;
+		if(checkMoveOpponent(p))//checks if he any of the piece of the player can "eat" the piece that is causing the check
+			if(checkMoveKing(p))//checks if the king can move to a position where he is not in check
+				return true;//blocking remains
 		return false;
-	}*/
+	}
+	/**
+	 * Checks if the king can move to a position where he is not in check therefore not in check
+	 */
 	private boolean checkMoveKing(Piece p) 
 	{
-		possible_move_check_own = new ArrayList<Position>();
-		possible_move_check_opp = new ArrayList<Position>();
+		possible_move_check_own = new ArrayList<Position>();// Kings movements
+		possible_move_check_opp = new ArrayList<Position>();//Oponents movement
+		
 		MovementKing mki =  new MovementKing( pieces,  piece,  x,  y);
 		possible_move_check_own =  mki.checkKing();
+		
 		for(int i=0;i<8;i++)
 		{
 			for(int j=0;j<8;j++)
 			{
 				if( pieces[i][j] != null)
 				{
-					if( pieces[i][j].getColor() != p.getColor())
-						return true;
-						//possible_move_check_opp = getPossibleMoves(i, j, pieces[i][j]);
+					if( pieces[i][j].getColor() == p.getColor())
+						possible_move_check_opp.addAll(getPossibleMoves(pieces[i][j], i, j));
 				}
 			}
 		}
-		
-		return false;
+		boolean empty;
+		for(int i = 0;i<possible_move_check_own.size();i++)
+		{
+			empty = false;
+			for(int j = 0;j<possible_move_check_opp.size();j++)
+			{
+				if(debug)
+					System.out.println(possible_move_check_opp.get(j).getX() +"  " + possible_move_check_opp.get(j).getY());
+				if(possible_move_check_own.get(i).check(possible_move_check_opp.get(j)))//the oppopnen can move to the position where the king could move
+				{//not valid keep looking
+					empty = true;
+					break;
+				}
+			}
+			if(!empty)//the opponent can no check the king valid move not checkmate
+			{
+				return false;
+			}
+		}
+		return true;
 	}
 
 	/**

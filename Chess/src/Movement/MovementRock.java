@@ -18,6 +18,8 @@ public class MovementRock extends Movement
 		super.pieces= _pieces;
 		super.x = _x;
 		super.y = _y;
+		piece = _piece;
+		pieces = _pieces;
 		x=_x;
 		y=_y;
 		
@@ -88,15 +90,17 @@ public class MovementRock extends Movement
 
 		valid[0] = false; valid[1] = false;
 		check_Color_empty = checkColorempty(i,j);
-		if(pieces[i][j]== null || check_Color_empty)
-		{	
+		System.out.println(check_Color_empty);
+		if(pieces[i][j] == null || check_Color_empty)// empty or piece from another color
+		{	//Valid move
 			valid[0] = true;
 			if(check_Color_empty)
-				valid[1] = false;
+				valid[1] = true;
 		}
 		else
 		{
-			valid[1] = false;
+
+			valid[1] = true;
 		}
 		check_Color_empty = false;
 
