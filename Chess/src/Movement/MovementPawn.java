@@ -71,7 +71,7 @@ public class MovementPawn extends Movement
 	 * Looks if the position is free
 	 */	
 	private boolean lookMovementPawn1(int i, int j) {
-		if(!checkoutofbounds(i, i) && pieces[i][j] == null)
+		if(!checkoutofbounds(i, j) && pieces[i][j] == null)
 			return true;
 		else 
 			return false;
