@@ -32,6 +32,8 @@ public class Board extends JFrame implements MouseListener, MouseMotionListener
   Piece piece_obj;
 
   
+  int undo_end_x;
+  int undo_end_y;
   
   int heigth = 600;//dimensions
   int width = 600;
@@ -250,6 +252,9 @@ private void initBoard(Dimension boardSize)
  
 	  chess_Piece.setVisible(false);
 	  
+	  
+	  undo_end_x =e.getX();
+	  undo_end_y =e.getX();
 	  position_y = e.getX()/74;
 	  position_x = e.getY()/74;
 	  
@@ -328,6 +333,20 @@ private void initBoard(Dimension boardSize)
   {
 	  game_logic.updateApp();
   }
+public void undoMovement(Undo undo) 
+{
+	chess_Piece.setVisible(false);
+	
+	//Component c1 = chess_Board.findComponentAt(undo_end_x, undo_end_y);
+	JPanel c = (JPanel)chess_Board.getComponent(undo.getFinal().getX()*8+ undo.getFinal().getY());
+	c.remove(0);
+	
+	panel = (JPanel)chess_Board.getComponent(undo.getInit().getX()*8+ undo.getInit().getY());
+	panel.add(chess_Piece);
+		
+	chess_Piece.setVisible(true);
+	
+}
   
  
   

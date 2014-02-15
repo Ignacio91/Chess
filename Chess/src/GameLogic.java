@@ -1,16 +1,26 @@
+import java.awt.Button;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
 
 import Basic_Objects.Piece;
 import Basic_Objects.Player;
 import Basic_Objects.Position;
 
-
+/**
+ *  Class that sets the game Logic
+ * @author Ignacio Ferrero
+ */	
 public class GameLogic 
 {
 	Position position_init;
 	Position position_end;
 	  
-	MovementCheck movement;
+	MovementCheck movement;//movement controller
 	
 	boolean not_turn ;// which turn it is
 	
@@ -20,12 +30,20 @@ public class GameLogic
 	
 	Piece piece;
 	
+	Undo undo_movement;// controlling the undo
+	
 	boolean is_finished ;
 	boolean movement_complete ;
 	
-	boolean app_finished ;
+	boolean app_finished;
+	boolean undo_done;
 	
-	Board frame;//GUI
+	
+	//GUI member
+	Board frame;
+	JMenuBar menu_Bar;
+	JMenu menu;
+	JButton undo;
 	
 	Player p;
 	
@@ -49,12 +67,48 @@ public class GameLogic
 	 */
 	private void initializeBoard() 
 	{
-		 frame = new Board(this);
-		 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		 frame.pack();
-		 frame.setResizable(true);
-		 frame.setLocationRelativeTo( null );
-		 frame.setVisible(true);
+		menu_Bar = new JMenuBar();
+		menu = new JMenu("Menu");
+		undo = new JButton("Undo");
+		menu.add(undo);
+		
+		
+		addActionButton();
+		
+		menu_Bar.add(menu);
+		
+		
+		frame = new Board(this);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setJMenuBar(menu_Bar);
+		frame.pack();
+		frame.setResizable(true);
+		frame.setLocationRelativeTo( null );
+		frame.setVisible(true);
+	}
+	/**
+	 * sets an action Listener for the button undo
+	 */
+	private void addActionButton() {
+		undo.addActionListener(new ActionListener() {
+			 
+            public void actionPerformed(ActionEvent e)
+            {
+            	if(undo != null)
+            	{
+	                if( piece.getColor() == undo_movement.getTurn())
+	                {
+						pieces[undo_movement.getInit().getX()][undo_movement.getInit().getX()] = undo_movement.getPiece();
+						pieces[undo_movement.getFinal().getX()][undo_movement.getFinal().getX()] = null;
+						
+						frame.undoMovement(undo_movement);
+				
+	                }
+            	}
+            	
+            }
+        }); 
+		
 	}
 	/**
 	 * Function to make clear the application was close the logic must end to
@@ -88,7 +142,7 @@ public class GameLogic
 		else
 			not_turn = false;
 		
-		if(!not_turn)// its  your turn
+		if(!not_turn )// its  your turn
 		{
 			
 			if(movement.checkMove(piece, position_init, position_end))//looks if the movement is valid
@@ -96,7 +150,12 @@ public class GameLogic
 				
 				pieces[position_init.getX()][position_init.getY()] = null;
 				pieces[position_end.getX()][position_end.getY()] = piece;
+				
 				movement.update(pieces);
+				
+				undo_movement = new Undo(position_init , position_end, piece);
+				undo_movement.SetTurn(piece.getColor());
+				
 				if(movement.lookCheck(_end, piece.getColor()))//look if after the move the king is checked
 				{
 					p.setCheck();// the player is in check 
@@ -211,5 +270,10 @@ public class GameLogic
 		}
 		else return false;
 		
+	}
+	
+	public Boolean getUndo()
+	{
+		return undo_done;
 	}
 }

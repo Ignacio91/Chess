@@ -76,9 +76,8 @@ public class MovementCheck
 		//important en position
 		x = _end.getX();
 		y =  _end.getY();
-		//ArrayList<Position> possible_move= getPossibleMoves(x,y, piece);
 		ArrayList<Position> possible_move= getPossibleMoves(piece, x, y);
-		System.out.println();
+		
 		pos_x_king =-1;// initialize
 		pos_y_king =-1;
 		
@@ -102,12 +101,14 @@ public class MovementCheck
 				
 			}
 		}
-		System.out.println("King found" + king_found);
+		if(debug)
+			System.out.println("King found" + king_found);
 		if(pos_x_king!=-1)
 		{
 			for(int i=0; i<possible_move.size();i++)
 			{
-				System.out.println(possible_move.get(i));
+				if(debug)
+					System.out.println(possible_move.get(i));
 				if(debug)
 				{
 					System.out.println("X!: " +possible_move.get(i).getX()+ "Y!  " + possible_move.get(i).getY());
