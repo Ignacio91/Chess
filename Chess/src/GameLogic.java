@@ -99,12 +99,13 @@ public class GameLogic
 	/**
 	 * sets an action Listener for the button undo
 	 */
-	private void addActionButton() {
+	private void addActionButton() 
+	{
 		undo.addActionListener(new ActionListener() {
 			 
             public void actionPerformed(ActionEvent e)
             {
-            	if(undo != null)
+            	if(undo != null && piece != null)
             	{
 	                if( piece.getColor() == undo_movement.getTurn())
 	                {
