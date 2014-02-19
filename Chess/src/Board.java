@@ -347,6 +347,11 @@ public void undoMovement(Undo undo)
 	chess_Piece.setVisible(true);
 	
 }
+public void showScore(Player p) 
+{
+	JOptionPane.showMessageDialog(this, "Player:" + p.getName()+" has won :" +p.getWins() + " Games");
+	
+}
   
  
   

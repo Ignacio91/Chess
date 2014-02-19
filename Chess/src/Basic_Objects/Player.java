@@ -6,9 +6,25 @@ public class Player
 {
 	 boolean is_check;// variable to show if the player is in check
 	 boolean logic;//  what color is the player
-	 public Player(boolean _logic)
+	 int wins;
+	 String name;
+	 public Player(boolean _logic, String _name)
 	 {
 		 logic = _logic;
+		 name = _name;
+		 wins = 0;
+	 }
+	 public int getWins()
+	 {
+		 return wins;
+	 }
+	 public String getName()
+	 {
+		 return name;
+	 }
+	 public void addWins()
+	 {
+		 wins++;
 	 }
 	 public boolean getLogic(){
 		 return logic;

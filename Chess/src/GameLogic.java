@@ -1,4 +1,4 @@
-import java.awt.Button;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -37,13 +37,14 @@ public class GameLogic
 	
 	boolean app_finished;
 	boolean undo_done;
+	boolean give_up,both_playe_draw;//Player gives up
 	
 	
 	//GUI member
 	Board frame;
 	JMenuBar menu_Bar;
 	JMenu menu;
-	JButton undo;
+	JButton undo, restart, score, draw;
 	
 	Player p;
 	
@@ -53,6 +54,8 @@ public class GameLogic
 		app_finished = false;
 		is_finished = false;
 		movement_complete = false;
+		give_up = false;
+		both_playe_draw = false;
 		initializeBoard();
 		initializeLogic(true);//initializes the matrix white pieces only one function
 		initializeLogic(false);//initializes the matrix black pieces only one function
@@ -69,8 +72,15 @@ public class GameLogic
 	{
 		menu_Bar = new JMenuBar();
 		menu = new JMenu("Menu");
+		restart = new JButton("Restart");
 		undo = new JButton("Undo");
+		score = new JButton("Look Score");
+		draw = new JButton("Draw");
+		
+		menu.add(restart);
+		menu.add(score);
 		menu.add(undo);
+		menu.add(draw);
 		
 		
 		addActionButton();
@@ -108,6 +118,30 @@ public class GameLogic
             	
             }
         }); 
+		restart.addActionListener(new ActionListener() {
+			 
+            public void actionPerformed(ActionEvent e)
+            {
+            	give_up = true;
+            	
+            }
+        }); 
+		score.addActionListener(new ActionListener() {
+			 
+            public void actionPerformed(ActionEvent e)
+            {
+            	frame.showScore(p);
+            	
+            }
+        }); 
+		draw.addActionListener(new ActionListener() {
+			 
+            public void actionPerformed(ActionEvent e)
+            {
+            	both_playe_draw= true;
+            	
+            }
+        });
 		
 	}
 	/**
@@ -275,5 +309,25 @@ public class GameLogic
 	public Boolean getUndo()
 	{
 		return undo_done;
+	}
+	public Boolean getGiveUp()
+	{
+		if(give_up)
+		{
+			give_up = false;
+			return true;
+		}else
+			return false;
+		
+	}
+	public Boolean getDraw()
+	{
+		if(both_playe_draw)
+		{
+			both_playe_draw = false;
+			return true;
+		}else
+			return false;
+		
 	}
 }

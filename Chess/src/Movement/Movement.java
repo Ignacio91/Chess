@@ -1,7 +1,7 @@
 
 package Movement;
 import Basic_Objects.Piece;
-import Basic_Objects.Position;
+
 
 public  abstract class Movement 
 {
