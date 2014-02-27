@@ -6,18 +6,20 @@
 class ManageList
   def getAllFligths(graph, csa)
     graph.map{ |airport| 
-       if( airport["csa"] == code) 
-            iterateRecursive(airport["destinations"], graph)            
+       if( airport["name"] == csa) 
+            iterateRecursive(airport["destinations"], graph, csa)            
         end
     }
     end
     def iterateRecursive(ports, graph, csa)
-      ports.map{ |airport| 
+=begin ports.map{ |airport| 
         #findAlldestinies()
         
       }
+=end
+      puts "Connections from  "+ csa +" are : "
       graph.map{ |airport| 
-        puts "Connections from"+ csa +" are"+  + airport["name"]
+        puts airport["name"]
       }
     end
 

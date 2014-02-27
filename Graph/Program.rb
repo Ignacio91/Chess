@@ -27,7 +27,7 @@ csa.delete!("\n")
 puts csa
 option = 2
 until csa == "X"#Exit option
-    until option == 3#Exit option
+    until option == 5#Exit option
       option = manager.getRealInformation(csa)
 
       if option == 1
@@ -42,7 +42,7 @@ until csa == "X"#Exit option
         manage_static = ManageStatic.new
         manage_static.manageStatistic(graph,option_static, csa,graph_parsed)#operation static
         elsif option == 3 #get all fligths in reach
-        ManageList.new.getAllFligths(csa, graph_parsed)
+        ManageList.new.getAllFligths(graph_parsed, csa)
       elsif option == 4 #return all fligth on route
         ManageRoutes.new.getRoutes(graph_parsed)
         end
