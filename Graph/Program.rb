@@ -1,4 +1,6 @@
-
+=begin
+  * Script for the application
+=end
 
 require "rubygems"
 require "json"
@@ -11,13 +13,12 @@ require_relative 'ManageList.rb'
 
 manager = Manager.new
 manager.welcome
-
-puts "hello"
+#opens the json file
 file = open("map_data.json")
 puts file
 json = file.read
 parsed = JSON.parse(json)
-
+#parse the json into a grpah / hash
 graph = Graph.new()
 graph_parsed =graph.create(parsed)
 

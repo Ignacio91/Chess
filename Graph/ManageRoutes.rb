@@ -26,10 +26,13 @@ class ManageRoutes
     routes.map{|routes, i|
       uri += routes.to_s + ","
     }
-    puts uri
+    #if(debug)
+     # puts uri
+    #end
     uri_final ='http://www.gcmap.com/mapui?P=' + uri
     system("open -a Safari #{uri_final}")
     #uri = URI('http://www.gcmap.com/')
     #Net::HTTP.get(uri) # => results
   end
 end
+debug = true
