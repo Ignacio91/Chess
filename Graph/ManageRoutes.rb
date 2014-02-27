@@ -3,7 +3,7 @@
   * Description :Shows all the routes
   * Author:Ignacio Ferrero
 =end
-#require 'net/http'
+require 'net/http'
 class ManageRoutes
   def getRoutes(graph)
     arrayRoutes=[]
@@ -11,13 +11,25 @@ class ManageRoutes
            airport["destinations"].map do |element|
              arrayRoutes.push(element["ports"][0] +"-" + element["ports"][1])
                   end
-       puts arrayRoutes
-      #sendUrl(routes) 
+       #puts arrayRoutes
+      
     }
+  sendUrl(arrayRoutes) 
     
   end
   def sendUrl(routes)
-    uri = URI('http://www.gcmap.com/')
-    Net::HTTP.get(uri) # => results
+    #puts routes
+    routes = routes.uniq
+    puts routes
+    uri = ""
+    #routes.gsub!('\n',',')
+    routes.map{|routes, i|
+      uri += routes.to_s + ","
+    }
+    puts uri
+    uri_final ='http://www.gcmap.com/mapui?P=' + uri
+    system("open -a Safari #{uri_final}")
+    #uri = URI('http://www.gcmap.com/')
+    #Net::HTTP.get(uri) # => results
   end
 end
