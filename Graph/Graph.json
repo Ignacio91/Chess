@@ -1,0 +1,64 @@
+{
+    "CSAGRAPH":
+    [
+        {
+           "CSA": 1111, 
+          "Information": 
+          {
+            "Code": 0000,
+            "Name": "Madrid",
+            "Country": "Spain",
+            "Continent": "Europe",
+            "TimeZone": "GMT+!",
+            "Coordenates": {
+                "Latitude": 2324,
+                "Longitude": 1234
+                },
+            "Population": 10000000,
+            "Region": "IBerica",
+            "FligthDestination":
+            [
+                {
+                    "Name": "London",
+                    "Distance": 3200
+                },
+                {
+                    "Name": "Paris",
+                    "Distance": 2100
+                 }
+            ]
+          }
+  
+        },
+        {
+           "CSA": 2222, 
+          "Information": 
+          {
+            "Code": 0001,
+            "Name": "London",
+            "Country": "UK",
+            "Continent": "Europe",
+            "TimeZone": "GMT+0",
+            "Coordenates": {
+                "Latitude": 1233,
+                "Longitude": 2134
+                },
+            "Population": 80000,
+            "Region": "Capital",
+            "FligthDestination":
+            [
+                {
+                    "Name": "Madrid",
+                    "Distance": 2100
+                },
+                {
+                    "Name": "New York",
+                    "Distance": 6000
+                 }
+            ]
+          }
+  
+        }
+    ]
+  
+}

@@ -139,6 +139,7 @@ public class GameLogic
 			 
             public void actionPerformed(ActionEvent e)
             {
+            	
             	both_playe_draw= true;
             	
             }
