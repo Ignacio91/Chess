@@ -10,6 +10,8 @@ require_relative 'ManageSimple.rb'
 require_relative 'ManageStatic.rb'
 require_relative 'ManageRoutes.rb'
 require_relative 'ManageList.rb'
+require_relative 'GraphUtilities.rb'
+require_relative 'GraphParse.rb'
 
 manager = Manager.new
 manager.welcome
@@ -19,8 +21,9 @@ puts file
 json = file.read
 parsed = JSON.parse(json)
 #parse the json into a grpah / hash
-graph = Graph.new()
-graph_parsed =graph.create(parsed)
+#graph = Graph.new()
+graph_parsed =GraphParse.new.create(parsed)
+graph= Graph.new(graph_parsed)
 
 
 csa = manager.getInfo
@@ -46,6 +49,11 @@ until csa == "X"#Exit option
         ManageList.new.getAllFligths(graph_parsed, csa)
       elsif option == 4 #return all fligth on route
         ManageRoutes.new.getRoutes(graph_parsed)
+        elsif option == 5 #return all fligth on route
+                option_modify  = manager.putOptionsModify
+                ManageRoutesModify.new.Routes(graph_parsed)
+      elsif option == 6
+        graph_parsed.UpdateDisk(graph_parsed)
         end
     end
   csa = manager.getInfo 

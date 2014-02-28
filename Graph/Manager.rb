@@ -28,10 +28,12 @@ class Manager
       puts 'Option 2: Go to statistic Information'
       puts 'Option 3: List all of the cities available'
       puts 'Option 4: Get All Routes'
-      puts 'Option 5: Escape'
+      puts 'Option 5: Modify Routes'
+      puts 'Option 6: Save Information'
+      puts 'Option 7: Escape'
   
       option = gets
-      option = checkEndCon(option.to_i, 1,5)
+      option = checkEndCon(option.to_i, 1,7)
       
       return option
      
@@ -53,6 +55,18 @@ class Manager
         option = checkEndCon(option.to_i, 1, 10)
         return option
       end
+  def putOptionsModify
+          puts 'Option 1: Add city'
+          puts 'Option 2: Add a Route'
+          puts 'Option 3: Delete a City'
+          puts 'Option 4: Delete a Route'
+          puts 'Option 5: Edit city'
+          puts 'Option 6: Exit'
+          
+          option = gets
+          option = checkEndCon(option.to_i, 1, 6)
+          return option
+        end
   #Function to look at if the input of the user is valid
     def checkEndCon(option, min, max)
       until checkcondition(min,max, option)
@@ -92,7 +106,13 @@ class Manager
       return option
     end
   
-  
+  def RouteMenu
+    puts 'Option 1: Add Route'
+    puts 'Option 2: Exit'
+    
+    option = gets
+    option = checkEndCon(option.to_i, 1, 2)
+  end
   
 
  
