@@ -29,5 +29,5 @@ class GraphParse
         f.write(JSON.pretty_generate(csa))
       end
     end
-    end
+
 end
