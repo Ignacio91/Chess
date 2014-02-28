@@ -24,7 +24,7 @@ class GraphParse
       return h
     end
     
-    def UpdateDisk(csa)
+    def updateDisk(csa)
       File.open("map-data1.json","w") do |f|
         f.write(JSON.pretty_generate(csa))
       end

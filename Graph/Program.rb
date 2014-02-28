@@ -11,7 +11,8 @@ require_relative 'ManageStatic.rb'
 require_relative 'ManageRoutes.rb'
 require_relative 'ManageList.rb'
 require_relative 'GraphUtilities.rb'
-require_relative 'GraphParse.rb'
+require_relative 'GraphParse'
+require_relative 'ManageRoutesModify.rb'
 
 manager = Manager.new
 manager.welcome
@@ -31,7 +32,7 @@ csa.delete!("\n")
 puts csa
 option = 2
 until csa == "X"#Exit option
-    until option == 5#Exit option
+    until option == 9#Exit option
       option = manager.getRealInformation(csa)
 
       if option == 1
@@ -51,17 +52,19 @@ until csa == "X"#Exit option
         ManageRoutes.new.getRoutes(graph_parsed)
         elsif option == 5 #return all fligth on route
                 option_modify  = manager.putOptionsModify
-                ManageRoutesModify.new.Routes(graph_parsed)
+                ManageRoutesModify.new.manageRoutes(graph, option_modify, csa)
+                graph_parsed = graph.parse
       elsif option == 6
-        graph_parsed.UpdateDisk(graph_parsed)
-        end
+        GraphParse.new.updateDisk(graph_parsed)
+        elsif option== 7
+      elsif option == 8
+      end
     end
   csa = manager.getInfo 
   puts csa
   csa.delete!("\n")
   option = 2
 end
-
 
 
 

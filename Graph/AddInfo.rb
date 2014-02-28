@@ -5,10 +5,10 @@ class AddInfo
     puts "Creating Node : "
     
     code = check(3, "code")
-    name = getBasic("Name").to_i
+    name = getBasic("Name")
     country = check(2, "country")
-    continent = getBasic("Continent").to_i
-    timezone = gets.getBasic("TimeZone").to_i
+    continent = getBasic("Continent")
+    timezone = getBasic("TimeZone").to_i
     hash_coordinates = getCoordinates()
     population = getBasic("Population").to_i
     region = getBasic("Region").to_i
@@ -31,15 +31,15 @@ class AddInfo
   end
   def getBasic(operation)
     puts "Introduce a " +operation
-    return gets
+    return gets.delete!("\n")
   end
-  def getCoordinate()
+  def getCoordinates()
     puts "Introduce Latitude : "
     latitude = gets.to_i
     puts "Introduce Longitude : "
     longitude = gets.to_i
     
-    hash = {"coordinates" => { "S"=>latitude, "W"=>longitude}}
+    hash = { "S"=>latitude, "W"=>longitude}
     return hash
   end
   def introduceRoutes()
@@ -49,17 +49,18 @@ class AddInfo
     
     distance = getBasic("Distance").to_i
     
-    destination = [{"ports" => [code1, code2], "distance" => distance}]
+    destination = {"ports" => [code1, code2], "distance" => distance}
     return destination
     
   end
   def RouteMenu()
     destination = []
     manager = Manager.new
-     option  = manager.gerRoutMenu
+    option  = 1
     until option == 2
-      manager.gerRoutMenu
-      destination.push(introduceRoute())
+      
+      destination.push(introduceRoutes())
+      option = manager.getRoutMenu
     end
     return destination
 

@@ -30,10 +30,13 @@ class Manager
       puts 'Option 4: Get All Routes'
       puts 'Option 5: Modify Routes'
       puts 'Option 6: Save Information'
-      puts 'Option 7: Escape'
+      puts 'Option 7: Route Information'
+      puts 'Option 8: Shortest Route'
+      puts 'Option 9: Merge File'
+      puts 'Option 10: Escape'
   
       option = gets
-      option = checkEndCon(option.to_i, 1,7)
+      option = checkEndCon(option.to_i, 1,10)
       
       return option
      
@@ -106,12 +109,14 @@ class Manager
       return option
     end
   
-  def RouteMenu
+  def getRoutMenu
     puts 'Option 1: Add Route'
     puts 'Option 2: Exit'
     
     option = gets
     option = checkEndCon(option.to_i, 1, 2)
+    
+    return option.to_i
   end
   
 
