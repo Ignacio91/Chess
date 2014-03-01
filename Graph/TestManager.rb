@@ -6,5 +6,8 @@ class TestManager
       assert_equal(true, TestManager.new.checkEndof(1, 2, 3))
       assert_equal(false, TestManager.new.checkcondition(6, 1, 3))
         
+      
+        
     end
+    
 end

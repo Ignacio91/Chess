@@ -717,7 +717,11 @@
 		} , {
 			"ports" : ["MIA" , "WAS"] ,
 			"distance" : 1483
-		} , {
+		} , 
+		{
+			"ports" : ["MIA" , "MAD"] ,
+			"distance" : 9000
+		} ,{
 			"ports" : ["WAS" , "YYZ"] ,
 			"distance" : 575
 		} , {

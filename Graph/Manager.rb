@@ -1,6 +1,6 @@
 =begin
   * Manager
-  * Description :handle of the inputs/outputs of the program 
+  * Description :Handle of the inputs/outputs(MENUS) of the program  
   * Author:Ignacio Ferrero
 =end
 require "rubygems"
@@ -108,7 +108,19 @@ class Manager
       option = checkEndCon(option.to_i, 1, 9)
       return option
     end
-  
+=begin
+           * Gets the path for the shortest algorithm
+=end
+ def getPath
+   puts "Introduce Source Code"
+   start = gets.delete!("\n")
+   puts "Introduce end Code"
+   finish = gets.delete!("\n")
+   return start, finish
+ end
+=begin
+           * Gets the rout menu
+=end
   def getRoutMenu
     puts 'Option 1: Add Route'
     puts 'Option 2: Exit'

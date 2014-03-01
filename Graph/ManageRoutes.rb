@@ -17,6 +17,9 @@ class ManageRoutes
   sendUrl(arrayRoutes) 
     
   end
+=begin
+         * open the URL on the browser
+=end
   def sendUrl(routes)
     #puts routes
     routes = routes.uniq

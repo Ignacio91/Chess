@@ -1,3 +1,9 @@
+=begin
+  * ManageRoutesModify
+  * Description :Allows to modify the routes add delete nodes= cities or vertex also allows to edit the node
+  * Author:Ignacio Ferrero
+=end
+
 class ManageRoutesModify
     def manageRoutes(graph, option, csa)
             

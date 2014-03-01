@@ -1,7 +1,7 @@
 class GraphUtilities
-  @@parse = {}
+  @parse = {}
     def initialize(graph_parse)
-      @@parse = graph_parse
+      @parse = graph_parse
     end
 =begin
         * Standart Function for Simple request shows the information you 
@@ -9,7 +9,7 @@ class GraphUtilities
 =end
     def getOperation(csa, operation)
       puts "CSAIR Codes of" 
-      @@parse.map{ |airport| 
+      @parse.map{ |airport| 
         if( airport["name"] == csa) 
           puts "The "+ operation +" is " +airport[operation].to_s
         end
@@ -28,7 +28,7 @@ class GraphUtilities
 =end
    def getLongFlight(csa)
      number2 = 0
-     @@parse.map{ |airport| 
+     @parse.map{ |airport| 
            if( airport["name"] == csa) 
              airport["destinations"].map do |element|
                 number1 = element["distance"]
@@ -49,7 +49,7 @@ class GraphUtilities
 =end
  def getShortFlight(csa)
      number2 = 10000000
-   @@parse.map{ |airport| 
+   @parse.map{ |airport| 
            if( airport["name"] == csa) 
              airport["destinations"].map do |element|
                 number1 = element["distance"]
@@ -68,10 +68,10 @@ class GraphUtilities
 =begin
        * Gets the avergae distance of all flight this city operates
 =end
- def getAverageFligth(csa, parse)
+ def getAverageFligth(csa)
    number1=0
    n=0
-   @@parse.map{ |airport| 
+   @parse.map{ |airport| 
            if( airport["name"] == csa) #found the name
              airport["destinations"].map do |element|
                number1 += element["distance"].to_i
@@ -124,8 +124,8 @@ class GraphUtilities
 =begin
          * Gets the longest fligth this city operates to
 =end
- def getMinPopulation(csa, parse)
-   population1 = 10000000000
+ def getMinPopulation(csa)
+   population1 = Float::INFINITY
    @@parse.map{ |airport| 
            if( airport["name"] == csa) 
              airport["destinations"].map do |element,i|
@@ -144,8 +144,8 @@ class GraphUtilities
 =begin
          * Gets the longest fligth this city operates to
 =end
-   def getPopulation(code, parse)
-     @@parse.map{ |airport| 
+   def getPopulation(code)
+     @parse.map{ |airport| 
                if( airport["code"] == code) 
                  return airport["population"]
                end
@@ -154,14 +154,16 @@ class GraphUtilities
 =begin
          * Gets the longest fligth this city operates to
 =end
-    def getPopulationCity(code, parse)
-      @@parse.map{ |airport| 
+    def getPopulationCity(code)
+      @parse.map{ |airport| 
                    if( airport["population"] == code) 
                      return airport["name"]
                    end
          }
    end
-   
+=begin
+         * Function to know if Code is included and return the other code
+=end  
    def getCode(code1, code2)
      if(code1[1] == code2)
        return code1[0]
@@ -169,10 +171,31 @@ class GraphUtilities
         return code1[1]
        end   
    end
-   
-   def getListofContinents(csa)
+=begin
+         * Gets tall the Continents the airline operate to
+=end   
+   def getContinents()
+     continents = []
+     @parse.map{ |airport, i|
+       if(!continents.include?(airport["continent"]))
+         continents.push(airport["continent"])
+       end
+     }
+     puts "The Continents are" + continents.to_s
      end
-   def getHubCity(csa)
-     return 2
+=begin
+         * Gets the hubCity
+=end
+   def getHubCity()
+     vertex = 0
+     city = ""
+          @parse.map{ |airport|
+            if(airport["destinations"].length > vertex)#if target has more vertex swap
+              city = airport["name"]
+              vertex =airport["destinations"].length
+            end
+          }
+          
+          puts "The city with more connections is " + city + "  with #{vertex}"
    end
 end

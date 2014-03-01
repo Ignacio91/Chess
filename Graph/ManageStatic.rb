@@ -14,9 +14,8 @@ class ManageStatic
         when 4 then utilities.getMaxPopulation(csa)
         when 5 then utilities.getMinPopulation(csa)
         when 6 then utilities.getAveragePoulation(csa)
-        when 7 then utilities.getPopulation(csa)
-        when 8 then utilities.getContinents(csa)
-        when 9 then utilities.getHubs(csa)
+        when 7 then utilities.getContinents()
+        when 8 then utilities.getHubCity()
       end
 
 

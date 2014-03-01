@@ -104,6 +104,13 @@
           "BOG"
         ],
         "distance": 3158
+      },
+      {
+        "ports": [
+          "CMI",
+          "MEX"
+        ],
+        "distance": 1557
       }
     ]
   },
@@ -513,6 +520,13 @@
           "PAR"
         ],
         "distance": 1041
+      },
+      {
+        "ports": [
+          "MIA",
+          "MAD"
+        ],
+        "distance": 9000
       }
     ]
   },
@@ -1664,7 +1678,7 @@
   },
   {
     "code": "SYD",
-    "name": "sydney",
+    "name": "Sydney",
     "country": "AU",
     "continent": "Australia",
     "timezone": 10,
@@ -1738,6 +1752,13 @@
           "CHI"
         ],
         "distance": 2828
+      },
+      {
+        "ports": [
+          "CMI",
+          "LAX"
+        ],
+        "distance": 1710
       }
     ]
   },
@@ -1781,6 +1802,13 @@
           "CHI"
         ],
         "distance": 2994
+      },
+      {
+        "ports": [
+          "CMI",
+          "SFO"
+        ],
+        "distance": 1836
       }
     ]
   },
@@ -1831,6 +1859,13 @@
           "ATL"
         ],
         "distance": 958
+      },
+      {
+        "ports": [
+          "CMI",
+          "CHI"
+        ],
+        "distance": 132
       }
     ]
   },
@@ -1867,6 +1902,13 @@
           "MIA"
         ],
         "distance": 957
+      },
+      {
+        "ports": [
+          "CMI",
+          "ATL"
+        ],
+        "distance": 490
       }
     ]
   },
@@ -1910,6 +1952,20 @@
           "WAS"
         ],
         "distance": 1483
+      },
+      {
+        "ports": [
+          "MIA",
+          "MAD"
+        ],
+        "distance": 9000
+      },
+      {
+        "ports": [
+          "CMI",
+          "MIA"
+        ],
+        "distance": 1085
       }
     ]
   },
@@ -1953,6 +2009,13 @@
           "NYC"
         ],
         "distance": 334
+      },
+      {
+        "ports": [
+          "CMI",
+          "WAS"
+        ],
+        "distance": 606
       }
     ]
   },
@@ -1996,6 +2059,13 @@
           "YYZ"
         ],
         "distance": 568
+      },
+      {
+        "ports": [
+          "CMI",
+          "NYC"
+        ],
+        "distance": 755
       }
     ]
   },
@@ -2032,6 +2102,91 @@
           "YYZ"
         ],
         "distance": 568
+      },
+      {
+        "ports": [
+          "CMI",
+          "YYZ"
+        ],
+        "distance": 512
+      }
+    ]
+  },
+  {
+    "code": "CMI",
+    "name": "Champaign",
+    "country": "US",
+    "continent": "North America",
+    "timezone": -6,
+    "coordinates": {
+      "N": 40,
+      "W": 88
+    },
+    "population": 226000,
+    "region": 1,
+    "destinations": [
+      {
+        "ports": [
+          "CMI",
+          "LAX"
+        ],
+        "distance": 1710
+      },
+      {
+        "ports": [
+          "CMI",
+          "SFO"
+        ],
+        "distance": 1836
+      },
+      {
+        "ports": [
+          "CMI",
+          "MEX"
+        ],
+        "distance": 1557
+      },
+      {
+        "ports": [
+          "CMI",
+          "MIA"
+        ],
+        "distance": 1085
+      },
+      {
+        "ports": [
+          "CMI",
+          "ATL"
+        ],
+        "distance": 490
+      },
+      {
+        "ports": [
+          "CMI",
+          "WAS"
+        ],
+        "distance": 606
+      },
+      {
+        "ports": [
+          "CMI",
+          "YYZ"
+        ],
+        "distance": 512
+      },
+      {
+        "ports": [
+          "CMI",
+          "NYC"
+        ],
+        "distance": 755
+      },
+      {
+        "ports": [
+          "CMI",
+          "CHI"
+        ],
+        "distance": 132
       }
     ]
   }
