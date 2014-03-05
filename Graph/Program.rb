@@ -75,7 +75,7 @@ until csa == "X"#Exit option
         elsif option == 9 #Merges the file
           file = open("cmi_hub.json")
           new_parsed = gp.parseFile(file)
-          parsed, graph_parsed, graph = g.merge(parsed ,new_parsed)
+          parsed, graph_parsed, graph = gp.merge(parsed ,new_parsed)
           
       end
     end

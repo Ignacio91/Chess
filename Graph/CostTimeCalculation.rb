@@ -22,7 +22,7 @@ class CostTimeCalculation
     * Gets the total cost
 =end
   def getCost(distance)
-    puts COST_KM_LESS_1000
+    
     if(distance >1000)
       cost = 1000 * COST_KM_LESS_1000#the fist 1000 km are much more expensive
       cost += (distance-1000) * COST_KM_MORE_1000
