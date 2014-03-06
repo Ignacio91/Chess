@@ -223,13 +223,6 @@
       {
         "ports": [
           "SAO",
-          "MAD"
-        ],
-        "distance": 8373
-      },
-      {
-        "ports": [
-          "SAO",
           "LOS"
         ],
         "distance": 6367
@@ -453,13 +446,6 @@
       {
         "ports": [
           "ALG",
-          "MAD"
-        ],
-        "distance": 726
-      },
-      {
-        "ports": [
-          "ALG",
           "PAR"
         ],
         "distance": 1354
@@ -470,63 +456,6 @@
           "IST"
         ],
         "distance": 1354
-      }
-    ]
-  },
-  {
-    "code": "MAD",
-    "name": "Madrid",
-    "country": "ES",
-    "continent": "Europe",
-    "timezone": 1,
-    "coordinates": {
-      "N": 40,
-      "W": 4
-    },
-    "population": 6200000,
-    "region": 3,
-    "destinations": [
-      {
-        "ports": [
-          "SAO",
-          "MAD"
-        ],
-        "distance": 8373
-      },
-      {
-        "ports": [
-          "ALG",
-          "MAD"
-        ],
-        "distance": 726
-      },
-      {
-        "ports": [
-          "MAD",
-          "NYC"
-        ],
-        "distance": 5786
-      },
-      {
-        "ports": [
-          "MAD",
-          "LON"
-        ],
-        "distance": 5786
-      },
-      {
-        "ports": [
-          "MAD",
-          "PAR"
-        ],
-        "distance": 1041
-      },
-      {
-        "ports": [
-          "MIA",
-          "MAD"
-        ],
-        "distance": 9000
       }
     ]
   },
@@ -543,13 +472,6 @@
     "population": 12400000,
     "region": 3,
     "destinations": [
-      {
-        "ports": [
-          "MAD",
-          "LON"
-        ],
-        "distance": 5786
-      },
       {
         "ports": [
           "LON",
@@ -592,13 +514,6 @@
           "PAR"
         ],
         "distance": 1354
-      },
-      {
-        "ports": [
-          "MAD",
-          "PAR"
-        ],
-        "distance": 1041
       },
       {
         "ports": [
@@ -1955,13 +1870,6 @@
       },
       {
         "ports": [
-          "MIA",
-          "MAD"
-        ],
-        "distance": 9000
-      },
-      {
-        "ports": [
           "CMI",
           "MIA"
         ],
@@ -2032,13 +1940,6 @@
     "population": 22200000,
     "region": 3,
     "destinations": [
-      {
-        "ports": [
-          "MAD",
-          "NYC"
-        ],
-        "distance": 5786
-      },
       {
         "ports": [
           "LON",

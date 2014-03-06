@@ -61,7 +61,7 @@ until csa == "X"#Exit option
         elsif option == 6#Update the disk
           GraphParse.new.updateDisk(graph_parsed)
         elsif option== 7#Show the cost Set up
-          COST_KM_LESS_1000,   COST_KM_MORE_1000, TIME_PER_AIR, SPEED_SHORT, SPEED_LONG =CostTimeCalculation.new.getAll()
+          COST_KM_LESS_1000,   COST_KM_MORE_1000, TIME_PER_AIR, SPEED_SHORT, SPEED_LONG =CostTimeCalculation.new.getALL()
           puts "Information about the costs"
           puts "Cost per km less than 1000 is #{COST_KM_LESS_1000}"
           puts "Cost per km more than 1000 is #{COST_KM_MORE_1000}"
