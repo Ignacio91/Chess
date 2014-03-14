@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="3057">
+<author>frrrprs2</author>
+<date>2014-02-06T18:30:07.794905Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementKnight.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementKnightTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementKing.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementKingTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/ChessGameDemoTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/br.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Game.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/package-info.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/Movement.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementCheckTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/Position.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/Position.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/.settings</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/ChessGameDemoTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Game.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/package-info.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/Piece.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wh.gif</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementCheck.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementBishop.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementBishopTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wr.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementKing.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementKingTest.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/images</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementBishop.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementBishopTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementRock.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/ChessGameDemo.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementRock.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementPawn.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementPawnTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementCheck.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/ChessGameDemo.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementPawn.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementPawnTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.project</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/Movement.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/Piece.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementCheckTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementKnight.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.classpath</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementKnightTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bh.gif</path>
+</paths>
+<msg>Chess Assigment1 , Gui implemented, All Movements working</msg>
+</logentry>
+<logentry
+   revision="1593">
+<author>root</author>
+<date>2014-01-30T15:15:06.007378Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/frrrprs2</path>
+</paths>
+<msg>created directory frrrprs2</msg>
+</logentry>
+</log>

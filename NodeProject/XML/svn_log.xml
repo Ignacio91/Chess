@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="5366">
+<author>frrrprs2</author>
+<date>2014-02-19T22:02:59.513174Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_pawn.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_24d47327a00e5bd25372c0c322f9d682.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Board.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementBishopTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_king-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Basic_Objects/Player.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_king.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementKnightTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/bk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementKnight.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_test_1_1_movement_knight_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_test_1_1_movement_king_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Game.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_d507e7e1bfc24691931ff99772f1ef5b.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_6.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/namespace_movement_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_bishop.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_pawn.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_game_logic.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_24d47327a00e5bd25372c0c322f9d682.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_bishop_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_king_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/GameLogic.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementCheckTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementSimple.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/tab_h.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_chess_game_demo-members.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/.settings</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/hierarchy.tex</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementEatAllTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/Doxyfile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_rock.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/.project</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Basic_Objects/package-info.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_piece.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/Movement.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementKnight.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_knight_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_32e3161118cc9f13b1a5646ae1a292d0.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_pawn_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/package-info.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_board.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_board.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_pawn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_5.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_d507e7e1bfc24691931ff99772f1ef5b.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_pawn_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_king.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_5.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_7.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Basic_Objects/Piece.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_chess_game_demo.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/GameLogic$3.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Basic_Objects/Piece.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/namespaces.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_basic___objects_1_1_piece.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_position-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/bh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementKing.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_rock-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementKing.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementKingTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementSimple.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/bp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_rock.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/Movement.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/namespaces_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/namespace_basic___objects.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_f1562bae50fc06386765ccb3354f31af.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2cl.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_knight.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_player.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_game.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wr.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementBishop.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementBishopTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_test_1_1_movement_bishop_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_game.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2splitbar.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/Basic_Objects</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_king.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_chess_game_demo.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_knight.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_king.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_game_logic-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/annotated.tex</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/GameLogic$1.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Basic_Objects/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_0.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Basic_Objects/Player.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/dir_dbc64af3de50f21dd0d1af95d9f4e946.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_32e3161118cc9f13b1a5646ae1a292d0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementBishop.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_bishop_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/tab_h.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/UndoTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_king_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_6.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementSimpleTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/ChessGameDemoTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementRock.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/bq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_chess_game_demo.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Undo.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_1.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/latex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_dbc64af3de50f21dd0d1af95d9f4e946.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_0.js</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/Basic_Objects</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/.gitignore</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_5.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_knight.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/namespace_movement_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_basic___objects_1_1_position.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementPawnTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementEatAll.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/search_l.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/latex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/GameLogic$4.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementCheckTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/.classpath</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementKnightTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/Test plan.pdf</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Board.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_basic___objects_1_1_player.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/tab_s.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/namespaces_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/UndoTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_knight.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementPawn.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_movement_knight_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_position.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_rock.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/namespaces_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Game.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/namespaces.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/bb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementCheck.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_bishop.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementKingTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2node.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/images</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/br.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/dir_f1562bae50fc06386765ccb3354f31af.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_pawn.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_chess_game_demo-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_test_1_1_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_movement_1_1_movement_bishop.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Basic_Objects/Position.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementSimpleTest.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_7.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementEatAll.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/MovementEatAllTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_5.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/Movement/MovementPawn.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_test_1_1_movement_pawn_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/GameLogic$2.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/chess.jpeg</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/class_chess_game_demo-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/images/wp.gif</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/MovementTest/ChessGameDemoTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_rock.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_test_1_1_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement/MovementRock.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_game_logic.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/namespaces_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_board.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementTest/MovementPawnTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_basic___objects_1_1_player-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/src/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/download.jpeg</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/classes_2.js</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/bin/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/GameLogic.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/all_1.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.2/src/latex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/MovementCheck.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/search/functions_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_movement_1_1_movement_bishop.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Basic_Objects/Position.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/html/class_board-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/class_board.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/latex/namespace_basic___objects.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/Undo.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.2/bin/latex/class_game.tex</path>
+</paths>
+<msg>Implementation of Undo Restart and Draw for Assigment 1.2 for further commits look at my Git profile Ignacio91</msg>
+</logentry>
+<logentry
+   revision="3727">
+<author>frrrprs2</author>
+<date>2014-02-11T19:04:01.008892Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_chess_game_demo.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_bishop.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_rock.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Board.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_24d47327a00e5bd25372c0c322f9d682.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/MovementKnight.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/MovementKnightTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_bishop_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Basic_Objects/Player.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_rock-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/doxygen.css</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_6.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_game.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/namespace_basic___objects.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_board-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_d507e7e1bfc24691931ff99772f1ef5b.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_pawn.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_1.js</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_24d47327a00e5bd25372c0c322f9d682.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_bishop_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_chess_game_demo-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/hierarchy.tex</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/bk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_bishop.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_2.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/latex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Game.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/MovementPawnTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/namespaces_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Basic_Objects/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_32e3161118cc9f13b1a5646ae1a292d0.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/search_m.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_king_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_rock.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_game_logic.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_king_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/MovementBishop.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/MovementKing.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_game_logic-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_d507e7e1bfc24691931ff99772f1ef5b.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_chess_game_demo.tex</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/Basic_Objects</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_bishop.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_chess_game_demo-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_pawn.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementCheck.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_king.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementCheckTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/latex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/MovementKingTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/MovementKing.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/images</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_chess_game_demo-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_pawn.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_game_logic.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/open.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Basic_Objects/Piece.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/bh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/MovementKnightTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_game-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/ChessGameDemoTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/tab_b.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_7.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/bp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_pawn_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2ns.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_game.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_rock.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_f1562bae50fc06386765ccb3354f31af.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/MovementPawnTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Basic_Objects/Piece.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/namespaces.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/Movement.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/MovementBishopTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/MovementBishop.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/Basic_Objects</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_chess_game_demo.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementCheck.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/namespaces_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_check_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_test_1_1_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/namespace_movement_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/search_l.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/.settings</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_piece.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_4.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wr.gif</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/functions_0.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_king.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_5.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_5.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_board.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/Doxyfile</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/.project</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_test_1_1_movement_pawn_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_movement_check.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/dir_dbc64af3de50f21dd0d1af95d9f4e946.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_32e3161118cc9f13b1a5646ae1a292d0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_knight.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/Movement.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_0.html</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_pawn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_test_1_1_movement_knight_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/MovementRock.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_board.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_dbc64af3de50f21dd0d1af95d9f4e946.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Basic_Objects/Player.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_basic___objects_1_1_piece.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Board.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_knight.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/bq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/MovementPawn.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_rock.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_player.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_knight_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/GameLogic.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_movement_check_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_test_1_1_movement_king_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/namespace_basic___objects.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_6.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_player-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/wk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_knight_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/download.jpeg</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_4.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/MovementBishopTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_5.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_5.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_king.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/MovementKingTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_knight.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/namespaces_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_check-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_1.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_basic___objects_1_1_position.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/index.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_chess_game_demo.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/refman.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/class_chess_game_demo.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Game.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_king.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_board.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_king-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_game.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Basic_Objects/Position.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/class_game.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/dir_f1562bae50fc06386765ccb3354f31af.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_movement_pawn_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Basic_Objects/package-info.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/bb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_chess_game_demo_test.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/chess.jpeg</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/GameLogic.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_test_1_1_chess_game_demo_test-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/sync_on.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/latex/class_movement_check.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_board.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/.gitignore</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/MovementKnight.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_position.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Basic_Objects/Position.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/images/br.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_chess_game_demo.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/class_movement_check_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/Movement/MovementRock.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/Movement/MovementPawn.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/namespace_movement_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_7.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_movement_1_1_movement_knight.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/nav_f.png</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/src/html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/namespaces.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementCheckTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/.classpath</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/class_basic___objects_1_1_position-members.html</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_1_1_movement_bishop.eps</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_chess_game_demo_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_basic___objects_1_1_player.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/latex/class_movement_test_1_1_movement_bishop_test.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/bin/MovementTest/ChessGameDemoTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/functions_2.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/namespaces_0.js</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment1.1/src/MovementTest/package-info.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment1.1/bin/latex</path>
+</paths>
+<msg>Implementation player turn logic, separet logic from gui, doxygen, and refactoring</msg>
+</logentry>
+<logentry
+   revision="3057">
+<author>frrrprs2</author>
+<date>2014-02-06T18:30:07.794905Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementKnight.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementKnightTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementKing.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementKingTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/ChessGameDemoTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/br.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Game.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/package-info.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/Movement.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementCheckTest.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/Position.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/Position.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/.settings</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/ChessGameDemoTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Game.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/package-info.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects/Piece.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wh.gif</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementCheck.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementBishop.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementBishopTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/wr.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementKing.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementKingTest.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/images</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementBishop.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementBishopTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementRock.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/ChessGameDemo.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementRock.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/Basic_Objects</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Movement/MovementPawn.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/MovementPawnTest.class</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementCheck.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/ChessGameDemo.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementPawn.java</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assigment1/src/Movement</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementPawnTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.project</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/MovementTest/package-info.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/Movement.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/bin/Basic_Objects/Piece.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementCheckTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/Movement/MovementKnight.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/.classpath</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/src/MovementTest/MovementKnightTest.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assigment1/images/bh.gif</path>
+</paths>
+<msg>Chess Assigment1 , Gui implemented, All Movements working</msg>
+</logentry>
+<logentry
+   revision="2589">
+<author>frrrprs2</author>
+<date>2014-02-04T01:03:29.578358Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/bp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/src/Position.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/src/ChessGameDemo.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/bq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/br.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/bin/Position.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/bin/ChessGameDemo.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Chess/src</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wk.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/bb.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wp.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/src/MovementCheck.java</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wq.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/.classpath</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Chess</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/wr.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/bin/Piece.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/bh.gif</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/bin/MovementCheck.class</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Chess/images/bk.gif</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Chess/images</path>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Chess/bin</path>
+</paths>
+<msg>Gui working, movements from pawn and knigth working rest not ready, gamelogic not implemented</msg>
+</logentry>
+<logentry
+   revision="1652">
+<author>frrrprs2</author>
+<date>2014-01-30T17:35:30.738516Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/frrrprs2/Assignment0</path>
+<path
+   kind="file"
+   action="A">/frrrprs2/Assignment0/Classifier.java</path>
+</paths>
+<msg>MyCode Assignement0</msg>
+</logentry>
+<logentry
+   revision="1593">
+<author>root</author>
+<date>2014-01-30T15:15:06.007378Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/frrrprs2</path>
+</paths>
+<msg>created directory frrrprs2</msg>
+</logentry>
+</log>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp14-cs242/frrrprs2">
+<entry
+   kind="dir">
+<name>Assigment1</name>
+<commit
+   revision="3057">
+<author>frrrprs2</author>
+<date>2014-02-06T18:30:07.794905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assigment1/.classpath</name>
+<size>372</size>
+<commit
+   revision="3057">
+<author>frrrprs2</author>
+<date>2014-02-06T18:30:07.794905Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assigment1/.project</name>
+<size>364</size>
+<commit
+   revision="3057">
+<author>frrrprs2</author>
+<date>2014-02-06T18:30:07.794905Z</date>
+</commit>
+</entry>
+</list>
+</lists>

@@ -1,0 +1,44 @@
+doctype html
+html(xmlns='http://www.w3.org/1999/xhtml')
+head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    link(href='/stylesheets/images/favicon.ico', rel='icon', type='image/ico')
+    title Portfolio for SVN
+ 
+  body(onload='getXml()')
+    #container
+      #header
+        h1
+          | PortFolio
+          span.off SVN
+      #menu
+        ul
+          li.menuitem
+            a(href='#') Home
+          li.menuitem
+            a(href='#') About
+      #leftmenu
+        #leftmenu_top
+        #leftmenu_main
+          h3 Links
+          ul
+            li
+              a(href='#', id="ass1") Assigment1.0
+            li
+              a(href='#', id="ass2") Assigment1.1
+            li
+              a(href='#', id="ass3") Assigment1.2
+             
+        #leftmenu_bottom
+         
+      #content
+        #content_top
+        #content_main
+        textarea#text1(rows='20', cols='80')
+        h1 
+           button(type='btn', visibility='hidden', id = "ass4", name= "Show") Delete Text 
+        #content_bottom
+        #footer
+script(src="parsing.js")
+

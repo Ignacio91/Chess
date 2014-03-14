@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+body {
+  color: #A99A99;
+  font: italic 100% 'Droid Sans', arial;
+  padding: 0 0 15px 0;
+}
