@@ -1,3 +1,4 @@
+
 /**
  * Parsing and Listeners
  */
@@ -12,6 +13,14 @@ document.getElementById("ass1").addEventListener('click',function()
 /**
  * Listener for assigment 2
  */
+ document.getElementById("ass5").addEventListener('click',function()
+{
+
+	var theDiv = document.getElementById("ass6");
+	var content = document.createTextNode("p Hello");
+	theDiv.appendChild(content);
+
+}, false); 
 document.getElementById("ass2").addEventListener('click',function()
 		{
 			document.getElementById("text1").value = "";
@@ -31,11 +40,7 @@ document.getElementById("ass3").addEventListener('click',function()
 /**
  * Listener for the button
  */
-document.getElementById("ass4").addEventListener('click',function()
-{
-	document.getElementById("text1").value = "";
-}
-, false);
+
 
 /**
  * Parse all the files exportable to other topics

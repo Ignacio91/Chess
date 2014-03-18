@@ -1,0 +1,15 @@
+doctype html
+html
+head
+    link(rel='stylesheet', href='/stylesheets/style2.css')
+body
+  h1= title
+  button(onclick="location.href='/';") Return
+  #comments
+    - each comment in comments
+      div.comment
+        div.name= comment.username
+        div.created_at= comment.created
+        br
+        div.content= comment.content 
+        hr

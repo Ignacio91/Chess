@@ -2,10 +2,11 @@
 /**
  * Module dependencies.
  */
-
+var db = require( './db' );
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
+var route_comm= require('./routes/comment');
 var http = require('http');
 var path = require('path');
 
@@ -27,6 +28,7 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'about')));
 
 console.log(__dirname);
 // development only
@@ -36,21 +38,12 @@ if ('development' == app.get('env'))
 }
 
 app.get('/', routes.index);
+app.post( '/create', routes.create );
 app.get('/users', user.list);
+app.get('/render', route_comm.comment);
 
-http.createServer(app).listen(app.get('port'), function(req, res)
-{
-	var parser = new xml2js.Parser();
-	fs.readFile( __dirname +'/XML/svn_list.xml',  'utf8', function(err, data) 
-			{console.log(data);
-		    parser.parseString(data, function (err, result) 
-		    {
-		    	
-		        console.dir(JSON.stringify(result));
-		        console.log('Done');
-		        
-		    });
-	});
+
+http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
 

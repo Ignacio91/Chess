@@ -1,0 +1,68 @@
+body {
+ background: none repeat scroll 0 0 #FFD99E;
+border: 2px solid #FFB43D;
+border-radius: 3px 3px 3px 3px;
+color: #000000;
+font: bold 12px arial;
+margin-right: 14px;
+padding: 3px 9px;
+text-decoration: none !important;
+text-shadow: 1px 1px 0 #FFFFFF;
+  
+}
+a {
+  color: #00b7ff;
+}
+.addCommentForm {
+  width: 450px;
+}
+button{
+  padding: 5px 10px;
+    display: inline;
+    background: #777 url(button.png) repeat-x bottom;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #666;
+}
+
+
+input[type =button],
+input[type =submit] {
+  clear: both;
+  margin-left: 85px;
+  margin-top: 30px;
+  display: inline;
+    background: #777 url(button.png) repeat-x bottom;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #666;
+}
+.label {
+background: none repeat scroll 0 0 #E2E2E2;
+border: 4px solid #ABABAB;
+border-radius: 3px 3px 3px 3px;
+padding: 3px 10px;
+}
+#comments .name 
+{
+  float: left;
+  background-image: url(bg.gif);
+}
+#comments .created_at {
+  float: right;
+  background-image: url(bg.gif);
+}
+#comments .content {
+  clear: both;
+  background-image: url(bg.gif);
+}
