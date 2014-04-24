@@ -179,5 +179,17 @@ public class ClassifyTest extends TestCase {
 		
 		return np;
 	}
+	private ArrayList<Point> getCircle() 
+	{
+		ArrayList<Point> np  =  new ArrayList<Point>() ;
+		np.add(new Point(200, 200));np.add(new Point(225, 222));np.add(new Point(250, 250));
+		np.add(new Point(269, 274));np.add(new Point(300, 300));np.add(new Point(275, 323));
+		np.add(new Point(250, 350));np.add(new Point(225, 375));np.add(new Point(200, 400));
+		np.add(new Point(175, 375));np.add(new Point(150, 350));np.add(new Point(125, 325));
+		np.add(new Point(100, 300));np.add(new Point(125, 275));np.add(new Point(150, 250));
+		np.add(new Point(175, 225));
+		
+		return np;
+	}
 
 }

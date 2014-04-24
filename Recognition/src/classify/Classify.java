@@ -9,6 +9,7 @@ import java.util.Vector;
 import order.Order;
 import order.OrderDraw;
 import order.OrderSimple;
+import order.OrderCircle;
 
 
 import Point.GeomPoint;
@@ -59,6 +60,9 @@ public class Classify
 	ArrayList<Point> rectangle_boundary;
 	ArrayList<Point> rectangle_quadrilateal;
 	
+	Point circle_center;
+	float radius_circle;
+	
 	double ratio_height_and_width_rectangle;
 	
 	//corners calibration
@@ -105,9 +109,9 @@ public class Classify
 		return or;
 		}
 
-	private OrderDraw checkDraw() 
+	private Order checkDraw() 
 	{
-			OrderDraw or;
+			OrderDraw or ;
 			getRegression();
 	
 		if(point.size()>3)
@@ -119,6 +123,10 @@ public class Classify
 				
 			//debugging function	
 			debugArrayandConvexHull(points_hull, area_hull, perimeter_hull);
+			
+			//getLargestRectangle
+			//System.out.println("MAX Rectangle");
+			//getMaxRectangle();
 				
 			//get the max Triangle that fits in the convex Hull Area	
 			convex_triangle = convex_hull.getMaxTriangle(points_hull);
@@ -142,7 +150,7 @@ public class Classify
 			System.out.println("triangel_area_ratio_hull :" + triangel_perim_ratio_hull);
 			System.out.println();
 			//double [] s3 = convex_hull.getRatio(rectangle_bounding);	
-			  boolean circle =analyzeCircle();	
+			 circle =analyzeCircle();	
 		}
 		else
 		{
@@ -152,7 +160,11 @@ public class Classify
 		
 		if(circle)
 			{
-				or = new OrderDraw("CIRCLE", points_hull);
+			
+				//OrderCircle circle = new OrderCircle("CIRCLE", getCircleCenter() ,getCircleRadius());
+				//System.out.println("Hull area2 :" + area_hull );
+				or = new OrderDraw("CIRCLE", points_hull, area_hull);
+				
 				System.out.println("circulo");
 			}
 			else
@@ -174,6 +186,7 @@ public class Classify
 				}
 				else
 				{
+					
 					if(ratio_height_and_width_rectangle>0.3 && ratio_height_and_width_rectangle<=1 && perim_area_ratio_hull>12 && perim_area_ratio_hull<25 
 							&& ration_bounding_hull >= 0.6 && ration_bounding_hull <= 1.4)
 					{
@@ -203,6 +216,9 @@ public class Classify
 			return or;
 	}
 
+	
+
+
 	private void getMaxRectangle() 
 	{
 		MaxRectangle mr = new MaxRectangle();
@@ -210,8 +226,9 @@ public class Classify
 			Point p = points_hull.get(i);
 			mr.addPointToHull(new GeomPoint(p.x,p.y));
 		}
-		for(int i = 0; i<mr.size();i++){
-			System.out.println("Point :" + mr.get(i) );
+		for(int i = 0; i<mr.size();i++)
+		{
+			System.out.println("Point init:" + mr.get(i) );
 		}
 		Vector<?> p = mr.computeLargestRectangle();
 		for(int i = 0; i<p.size();i++){
@@ -222,8 +239,11 @@ public class Classify
 	private boolean analyzeCircle() {
 		
 		ratio_circle = Math.pow(convex_hull.getPerimeter(points_hull), 2)/convex_hull.getArea(points_hull);
-		System.out.println(ratio_circle);
-		return false;
+		System.out.println(" el ratio circle es" + ratio_circle);
+		
+		if(ratio_circle > 12 && ratio_circle <= 14.5)
+			return true;
+		else return false;
 	}
 
 	private void initializeHullParameters() 
@@ -373,4 +393,3 @@ public class Classify
 		
 	}
 }
-
